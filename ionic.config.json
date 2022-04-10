@@ -1,0 +1,7 @@
+{
+  "name": "actividad1_caicaza",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
