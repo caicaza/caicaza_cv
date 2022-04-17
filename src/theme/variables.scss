@@ -3,6 +3,9 @@
 
 /** Ionic CSS Variables **/
 :root {
+  --ion-background-color: #000511;
+  --ion-text-color: #ffffff;
+
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
@@ -233,4 +236,19 @@
 
     --ion-card-background: #1e1e1e;
   }
+}
+
+h1{
+  color: #5c9cff;
+}
+h2{
+  color:white
+}
+
+ion-card {
+  background-color: #161c26;
+
+}
+p{
+  color:white
 }

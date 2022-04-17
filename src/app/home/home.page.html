@@ -1,20 +1,141 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
+<app-menu></app-menu>
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-grid>
+    <ion-row class="ion-align-items-center">
+      <ion-col size="12" size-sm>
+        <img src="../../assets/img/lex_quad.png">
+      </ion-col>
+      <ion-col size="12" size-sm >
+        <div class="ion-text-center">
+          <div class="ion-justify-content-center"  >
+            <p style="font-size: 20px">Hola, soy
+              <span style="font-size: 20px; color: #3880ff">Carlos Icaza,</span>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+            </p>
+
+            <p style="font-size: 20px"> Ingeniero en Computación Gráfica.</p>
+            <div class="container" style="height: 10px"></div>
+            <p style="font-size: 20px"> Diseñador 2D/3D y Programador.</p>
+          </div>
+
+        </div>
+
+      </ion-col>
+    </ion-row>
+
+    <div class="container" style="height: 30px"></div>
+
+    <ion-row class="ion-align-items-center">
+
+      <ion-col size="12" size-sm >
+        <div class="ion-text-center">
+          <div class="ion-justify-content-center"  >
+            <h2 style="font-size: 30px; color: #3880ff">
+              MIS CONOCIMIENTOS</h2>
+          </div>
+        </div>
+
+      </ion-col>
+    </ion-row>
+
+    <ion-row style="margin: 50px">
+
+<!--      seccion 1-->
+      <ion-col size="12" size-sm>
+        <ion-card class="ion-text-center">
+          <img src="../../assets/img/programacion-01.png" />
+          <ion-card-header>
+            <ion-card-title style="color: white">
+              <h3>
+                Programación
+              </h3>
+              </ion-card-title>
+          </ion-card-header>
+
+          <ion-card-content>
+            <div class="container" style="height: 20px"></div>
+
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <!--      seccion 2-->
+      <ion-col size="12" size-sm>
+        <ion-card class="ion-text-center">
+          <img src="../../assets/img/edicion%20audio%20video-01.png" />
+          <ion-card-header>
+            <ion-card-title style="color: white">
+              <h3>
+                Edición de audio y video
+              </h3>
+             </ion-card-title>
+          </ion-card-header>
+
+          <ion-card-content>
+            <div class="container" style="height: 20px"></div>
+
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <!--      seccion 3-->
+      <ion-col size="12" size-sm>
+        <ion-card class="ion-text-center">
+          <img src="../../assets/img/diseño%202d-01.png" />
+          <ion-card-header>
+            <ion-card-title style="color: white">
+              <h3>
+                Diseño 2D
+              </h3>
+             </ion-card-title>
+          </ion-card-header>
+
+          <ion-card-content>
+            <div class="container" style="height: 20px"></div>
+
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <!--      seccion 1-->
+      <ion-col size="12" size-sm>
+        <ion-card class="ion-text-center">
+          <img src="../../assets/img/diseno-3d-01.png" />
+          <ion-card-header>
+            <ion-card-title style="color: white">
+              <h3>
+                Diseño 3D
+              </h3>
+            </ion-card-title>
+          </ion-card-header>
+
+          <ion-card-content>
+            <div class="container" style="height: 20px"></div>
+
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
+
+<!--Redes sociales-->
+  <ion-fab horizontal="end" vertical="bottom" slot="fixed">
+    <ion-fab-button color="dark">
+      <ion-icon md="caret-up" ios="chevron-up-circle-outline"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-list side="top">
+      <ion-fab-button href="https://ec.linkedin.com/in/caicaza-ec" target="_blank" color="light">
+        <ion-icon name="logo-linkedin"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button color="light" href="https://www.youtube.com/channel/UC9yQ17SncyIocVQvR5upDJA/featured" target="_blank">
+        <ion-icon name="logo-youtube"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button color="light" href="https://www.artstation.com/caicaza" target="_blank">
+        <ion-icon src="/assets/icon/artStation.svg" ></ion-icon>
+      </ion-fab-button>
+
+    </ion-fab-list>
+  </ion-fab>
+
 </ion-content>
